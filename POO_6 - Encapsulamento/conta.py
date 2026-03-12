@@ -5,4 +5,5 @@ class Conta:
 
    #métodos SET e GET aplicam o encapsulamento no python
     def get_saldo(self):
-        return 
+        return self._saldo
+    
