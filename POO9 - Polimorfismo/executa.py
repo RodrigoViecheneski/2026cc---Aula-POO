@@ -15,3 +15,5 @@ if __name__ == '__main__':
     controle.registra(gerente)
 
     print("Total: {}".format(controle.total_bonificacoes))
+
+    #Testes de execução
