@@ -4,7 +4,7 @@ class Conta:
         self._saldo = saldo
 
    #métodos SET e GET aplicam o encapsulamento no python
-    @property # Decorator transforma um método em atrivuto(encapsulamento elegante e seguro)
+    @property # Decorator transforma um método em atributo(encapsulamento elegante e seguro)
     def saldo(self):
         return self._saldo
     
