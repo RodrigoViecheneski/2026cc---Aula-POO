@@ -52,7 +52,7 @@ class Aplicacao:
 
         if numero in self.contas:
             if self.contas[numero].depositar(valor):
-                messagebox.showinfo("Sucesso", f"Deposito de R$ {valor:.2f} realizado!")
+                messagebox.showinfo("Sucesso", f"Depósito de R$ {valor:.2f} realizado!")
             else:
                 messagebox.showerror("Erro", "Valor inválido para depósito!")
         else:
@@ -64,7 +64,7 @@ class Aplicacao:
 
         if numero in self.contas:
             if self.contas[numero].sacar(valor):
-                messagebox.showinfo("Sucesso", f"Saque de R$ {valor:.2f} realizada!")
+                messagebox.showinfo("Sucesso", f"Saque de R$ {valor:.2f} realizado!")
             else:
                 messagebox.showerror("Erro", "Saldo insuficiente ou valor inválido!")
         else:

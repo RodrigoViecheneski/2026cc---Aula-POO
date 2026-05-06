@@ -1,6 +1,3 @@
-import tkinter as tk
-from tkinter import messagebox
-
 class Conta:
     def __init__(self, titular, numero, saldo=0.0):
         self.titular = titular
@@ -20,4 +17,4 @@ class Conta:
         return False
 
     def detalhes(self):
-        return f"Conta: {self.numero}\nTitular: {self.titular}\n Saldo: R$ {self.saldo:.2f}" 
+        return f"Conta: {self.numero}\nTitular: {self.titular}\nSaldo: R$ {self.saldo:.2f}" 
