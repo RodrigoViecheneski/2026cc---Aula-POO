@@ -8,6 +8,6 @@ class Cliente:
         self.email = email
 
 
-        #pip install mysql-connector-
+        
         
         # python -m pip install mysql-connector-python

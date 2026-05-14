@@ -26,4 +26,7 @@ class ClienteDAO:
         self.cursor.execute(sql, (cliente.nome, cliente.email, cliente.id))
         self.conexao.commit()
 
-    
+    def deletar(self, id):
+        sql = "DELETE FROM usuarios WHERE id = %s"
+        self.cursor.execute(sql, (id,))
+        self.conexao.commit()
